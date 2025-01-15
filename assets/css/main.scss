@@ -10,8 +10,6 @@
  *
 */
 
-// main.scss
-
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
@@ -41,4 +39,9 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-@import "custom"; // Add this line
+
+.page__title {
+    font-family: Georgia, serif;
+    color: #4272D4;
+    font-size: 2em;
+}
