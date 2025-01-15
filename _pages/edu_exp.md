@@ -28,7 +28,7 @@ redirect_from:
 - **M.S.**, Machine Learning and Artificial Intelligence (ML & AI), from Liverpool John Moores University (LJMU), (2021-2023)
 - **Post Graduate Diploma**, from Machine Learning and Artificial Intelligence (ML & AI), IIIT-Bangalore, (2021 - 2022)
 - **PGDAST**, Statistics, from IGNOU, (2017 - 2019)	 			        		
-- **Bachelor's in Engineering**, from Computer Engineering, Gandhinagar Institute of Technology, (2011 - 2015)
+- **Bachelor's in Engineering**,Computer Engineering, from Gandhinagar Institute of Technology, (2011 - 2015)
 
 ## 📪 Contact 
 - **For my detailed Resume reachout at:-** <a href="mailto:tripathi92sonam@gmail.com">tripathi92sonam@gmail.com</a>
