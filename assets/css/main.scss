@@ -39,3 +39,37 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// custom.scss
+
+.container {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    overflow: hidden; /* Prevent content overflow */
+    box-sizing: border-box; /* Ensure consistent sizing */
+}
+
+.container div {
+    width: 100%;
+    box-sizing: border-box; /* Ensure consistent sizing */
+    margin: 0;
+    padding: 0;
+}
+
+.container .header {
+    background-color: #d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container .content {
+    display: none;
+    padding: 5px;
+}
+
+@media (max-width: 600px) {
+    .container, .container div {
+        width: 100%;
+    }
+}
