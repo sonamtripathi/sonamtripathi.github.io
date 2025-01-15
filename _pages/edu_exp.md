@@ -26,7 +26,7 @@ redirect_from:
 
 ## 🎓 Education
 - **M.S.**, Machine Learning and Artificial Intelligence (ML & AI), from Liverpool John Moores University (LJMU), (2021-2023)
-- **Post Graduate Diploma**, from Machine Learning and Artificial Intelligence (ML & AI), IIIT-Bangalore, (2021 - 2022)
+- **Post Graduate Diploma**, Machine Learning and Artificial Intelligence (ML & AI), from IIIT-Bangalore, (2021 - 2022)
 - **PGDAST**, Statistics, from IGNOU, (2017 - 2019)	 			        		
 - **Bachelor's in Engineering**,Computer Engineering, from Gandhinagar Institute of Technology, (2011 - 2015)
 
