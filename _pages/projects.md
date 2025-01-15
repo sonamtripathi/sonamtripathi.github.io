@@ -45,7 +45,7 @@ Suppose you have been given such a data set in which a lot of text is written re
  
 -------
 
-## <span style = "font-family: Georgia;"> MNIST Digit Recognizer </span>  4️⃣ 2️⃣  🔍
+## <span style = "font-family: Georgia;"> MNIST Digit Recognizer </span>  4️⃣  2️⃣  🔍
 
 [MNIST Digit recognizer](https://github.com/sonamtripathi/MNIST_digit_recognizer)
 
