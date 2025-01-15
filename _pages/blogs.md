@@ -12,8 +12,6 @@ author_profile: true
 
 <span style="font-family: Cambria;"> This article walks through the evolution of Object detection techniques starting from feature descriptor to YOLO model series in depth with maths behind it and coding, This article will be covered on mutiple series as this is a very long series hence will be covered in multiple posts.</span>
 
-![Screenshot 2025-01-14 at 12 38 28 AM](https://github.com/user-attachments/assets/4f4cfe70-359e-47a2-8a6e-0c807021ea43)
-
 <a href="https://medium.com/@tripathisonam/evolution-of-object-detection-techniques-from-feature-descriptor-to-yolov8-models-part-i-79a559e35d02" class="custom-btn" style="background-color: #4272D4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px; font-family: Georgia, serif;">Read Full Article Here</a>
 
 ------
@@ -23,19 +21,58 @@ author_profile: true
 
 <span style="font-family: Cambria;"> This articles covers the rise of the Foundation models, starting from what to how they are trained, its types, applications and risk and eithical concerns around it, All will be covered here in this article.</span>
 
-![Screenshot 2025-01-14 at 12 41 34 AM](https://github.com/user-attachments/assets/5c039e1c-a99e-4eca-b8ee-a4095b4b647c)
-
 <a href="https://medium.com/@tripathisonam/fine-tuning-the-future-harnessing-the-potential-of-foundation-models-20263b97c895" class="custom-btn" style="background-color: #4272D4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px; font-family: Georgia, serif;">Read Full Article Here</a>
 
 ------
 
-## <span style="font-family: Georgia;"> 📚 📚 Foundation Models </span>
+## <span style="font-family: Georgia;"> 📚 📚 Demystifying the CLIP Model </span>
 <span style="font-family: Cambria;"> **Date Published:** *September 23, 2023* </span>
 
-<span style="font-family: Cambria;"> This article covers the CLIP model explained in detail, starting fromm what it is, how it works, drawbacks of this model.</span>
-
-![Screenshot 2025-01-14 at 12 43 26 AM](https://github.com/user-attachments/assets/7cd19b67-46ed-4b43-8366-a1a026b36970)
+<span style="font-family: Cambria;"> Multimodal is a subset of deep learning models that deals with data from multiple modalities such as text, images, audio, visuals or any other types of data. The core idea behind these models are that they learn the features learned from different types of data and combine them to perform better at more complex machine learning tasks. Here I have covered the CIP model.</span>
 
 <a href="https://medium.com/@tripathisonam/demystifying-the-clip-model-c2c6c0999ef1" class="custom-btn" style="background-color: #4272D4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px; font-family: Georgia, serif;">Read Full Article Here</a>
 
 ------
+
+## <span style="font-family: Georgia;"> 📚 📚 Complaints Classification using NMF </span>
+<span style="font-family: Cambria;"> **Date Published:** *September 24, 2022* </span>
+
+<span style="font-family: Cambria;"> In this article I will be using NMF(Non-Negative Matrix Factorisation) with the help of this technique, which is an approach under topic modelling, we will detect patterns and recurring words present in each ticket. This can be then used to understand the important features for each cluster of categories. By segregating the clusters, we will be able to identify the topics of the customer complaints.</span>
+
+<a href="https://medium.com/@tripathisonam/complaints-classification-using-nmf-c942bf97958f" class="custom-btn" style="background-color: #4272D4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px; font-family: Georgia, serif;">Read Full Article Here</a>
+
+------
+
+## <span style="font-family: Georgia;"> 📚 📚 UNDERSTANDING THE ESSENCE OF CALCULUS — PART II </span>
+<span style="font-family: Cambria;"> **Date Published:** *June 19, 2022* </span>
+
+<span style="font-family: Cambria;"> This is the 1st part of the Calculus essentials which covers the basic of Calculaus as stated by Shakuntala Devi - "Without Mathematics, there’s nothing you can do. Everything around you is Mathematics. Everything around you is numbers." </span>
+
+<a href="https://medium.com/@tripathisonam/understanding-the-essence-of-calculus-part-ii-3bbf4eaf8b4c" class="custom-btn" style="background-color: #4272D4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px; font-family: Georgia, serif;">Read Full Article Here</a>
+
+------
+
+## <span style="font-family: Georgia;"> 📚 📚 Understanding the Essence of Calculus </span>
+<span style="font-family: Cambria;"> **Date Published:** *May 29, 2022* </span>
+
+<span style="font-family: Cambria;"> This is the 2nd part of the Calculus essentials which covers the basic of Calculaus as stated by Shakuntala Devi - "Without Mathematics, there’s nothing you can do. Everything around you is Mathematics. Everything around you is numbers." </span>
+
+<a href="https://medium.com/@tripathisonam/understanding-the-essence-of-calculus-1fa73ac5e49e" class="custom-btn" style="background-color: #4272D4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px; font-family: Georgia, serif;">Read Full Article Here</a>
+
+------
+
+## <span style="font-family: Georgia;"> 📚 📚 Identifying hand-written digits(MNIST) using PyTorch </span>
+<span style="font-family: Cambria;"> **Date Published:** *October 30, 2022* </span>
+
+<span style="font-family: Cambria;"> In this article I have used the famous MNIST Handwritten Digits Databases as our training dataset using Pytorch framework.It consists of 28px by 28px grayscale images of handwritten digits(0–9), along with labels for each image indicating which digit it represents. MNIST stands for Modified National Institute of Standards and Technology.</span>
+
+<a href="https://tripathisonam.medium.com/identifying-hand-written-digits-mnist-using-pytorch-f9ded0cacc?source=friends_link&sk=c11655bd33f40fe7d8b5ee868fcd5966" style="background-color: #4272D4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px; font-family: Georgia, serif;">Read Full Article Here</a>
+
+------
+
+## <span style="font-family: Georgia;"> 📚 📚 Decoding “ALEXNET” Architecture </span>
+<span style="font-family: Cambria;"> **Date Published:** *November 7, 2018* </span>
+
+<span style="font-family: Cambria;"> In the ever-changing ecosystem of convolution neural networks (CNN), Recently I read the research paper on “Alexnet Architecture”. I decided to unravel the learnings of this amazing paper. AlexNet is the name of a Convolution Neural Network, designed by Alex Krizhevskly, and published with Ilya Sutskever and Krizhevsky’s PhD advisor Geoffrey Hinton.</span>
+
+<a href="https://medium.com/@tripathisonam/decoding-alexnet-architecture-188aca9a3f9b" style="background-color: #4272D4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px; font-family: Georgia, serif;">Read Full Article Here</a>
