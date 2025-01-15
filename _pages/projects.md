@@ -11,7 +11,7 @@ redirect_from:
 
 ## <span style = "font-family: Georgia;"> MNIST Digit Recognizer </span>
 
-[Digir recognizer](https://github.com/sonamtripathi/MNIST_digit_recognizer)
+[MNIST Digit recognizer](https://github.com/sonamtripathi/MNIST_digit_recognizer)
 
 <span style="font-family: Cambria;"> This project focuses on identifying the hand-written digits in real-time using the 3 Models(Logistic Regression, Simple Neural network, Deep Learning Model) 
 **Softmax Regression:**
