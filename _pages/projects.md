@@ -23,6 +23,7 @@ Second we have also implemented Simple feed forward neural network for classific
 
 **Deep Learning Model:**
 Lastly we have used Deep Neural model with "ReLU" activation function and "softmax" loss function.
+
 -------
 
 ## <span style = "font-family: Georgia;"> Identifying Entities in Healthcare Data </span>
