@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-## <span style = "font-family: Georgia;"> Identifying Entities in Healthcare Data </span>
+👩‍🔬 💊  ## <span style = "font-family: Georgia;"> Identifying Entities in Healthcare Data </span>
 
 [Identifying Entities in Healthcare Data](https://github.com/sonamtripathi/NLP_Named_Entity_Recognition)
 
@@ -35,7 +35,7 @@ Suppose you have been given such a data set in which a lot of text is written re
 
 -------
 
-## <span style = "font-family: Georgia;"> Topic Modeling Complaints using Non-Negative Matrix Factorization </span>
+📚 ## <span style = "font-family: Georgia;"> Topic Modeling Complaints using Non-Negative Matrix Factorization </span>
 
 [Topic Modeling Complaints using Non-Negative Matrix Factorization](https://github.com/sonamtripathi/NLP-Project)
 
@@ -45,7 +45,7 @@ Suppose you have been given such a data set in which a lot of text is written re
  
 -------
 
-## <span style = "font-family: Georgia;"> MNIST Digit Recognizer </span>
+🔍 4️⃣ 2️⃣ ## <span style = "font-family: Georgia;"> MNIST Digit Recognizer </span>
 
 [MNIST Digit recognizer](https://github.com/sonamtripathi/MNIST_digit_recognizer)
 
@@ -62,7 +62,7 @@ Lastly we have used Deep Neural model with "ReLU" activation function and "softm
 
 -------
 
-## <span style = "font-family: Georgia;"> Frontal Face Detection using haar cascade</span>
+🙍🏻‍♀️ ## <span style = "font-family: Georgia;"> Frontal Face Detection using haar cascade</span>
 
 [Frontal Face Detection using haar cascade](https://github.com/sonamtripathi/frontal_face_detection_using_haar_cascade)
 
@@ -83,7 +83,7 @@ Run the "Face_Detection_OpenCV.py" file but before that download the Haar Cascad
 
 -------
 
-## <span style = "font-family: Georgia;"> Corona Virus(Covid-19) Impact in India </span>
+ 💊💊 ## <span style = "font-family: Georgia;"> Corona Virus(Covid-19) Impact in India </span>
 
 [Corona Virus(Covid-19) Impact in India](https://www.kaggle.com/code/geekysaint/corona-virus-covid-19-impact-in-india)
 
