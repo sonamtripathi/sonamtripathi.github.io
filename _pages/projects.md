@@ -30,7 +30,16 @@ Lastly we have used Deep Neural model with "ReLU" activation function and "softm
 
 [Identifying Entities in Healthcare Data](https://github.com/sonamtripathi/NLP_Named_Entity_Recognition)
 
-<span style="font-family: Georgia;"> The data is taken from a web platform that allows doctors to list their services and manage patient interactions and provides services for patients such as booking interactions with doctors and ordering medicines online. Here, doctors can easily organise appointments, track past medical records and provide e-prescriptions.
+<span style="font-family: Georgia;">
+▶︎ Here the objective is to identify the diseases and predicted treatment using a custom NER from the text data which is taken from a web platform (“Be Healthy”) which allows doctors to list their services and manage patient interactions and provides services for patients.
+
+▶︎ After processing the 3k doctor and patient’s interaction text data which is given in the form of tokens and then we identify all the words from the corpus that have a POS tag of NOUN or PROPN (nouns) and prepare a dictionary of their counts which was further used in the CRF model.
+
+▶︎ We have trained the custom NER model using CRF which was successfully able to identify 91% of the disease and their treatments from the given text data.
+
+▶︎ Here the objective is to identify the diseases and predicted treatment using a custom NER from the text data which is taken from a web platform (“Be Healthy”) which allows doctors to list their services and manage patient interactions and provides services for patients. ▶︎ After processing the 3k doctor and patient’s interaction text data which is given in the form of tokens and then we identify all the words from the corpus that have a POS tag of NOUN or PROPN (nouns) and prepare a dictionary of their counts which was further used in the CRF model. 
+
+▶︎ We have trained the custom NER model using CRF which was successfully able to identify 91% of the disease and their treatments from the given text data.
 
 Example:- “The patient was a 62-year-old man with squamous cell lung cancer, which was first successfully treated by a combination of radiation therapy and chemotherapy.”
 
@@ -38,7 +47,7 @@ As you can see in this text, a person with a non-medical background cannot under
 
 Suppose you have been given such a data set in which a lot of text is written related to the medical domain. As you can see in the dataset, there are a lot of diseases that can be mentioned in the entire dataset and their related treatments are also mentioned implicitly in the text, which you saw in the aforementioned example that the disease mentioned is cancer and its treatment can be identified as chemotherapy using the sentence.
 
-But, note that it is not explicitly mentioned in the dataset about the diseases and their treatment here we have identified it using NER technique. </span>
+ </span>
 
 -------
 
@@ -60,5 +69,16 @@ The Algorithm works in 4 Stages.
 Here we have implemented it using Opencv library Dependency: Haar Features xml file,OpenCv ,Python3
 
 Run the "Face_Detection_OpenCV.py" file but before that download the Haar Cascade(xml files).
+
+-------
+
+## <span style = "font-family: Georgia;"> Corona Virus(Covid-19) Impact in India </span>
+
+[Corona Virus(Covid-19) Impact in India](https://www.kaggle.com/code/geekysaint/corona-virus-covid-19-impact-in-india)
+
+<span style="font-family: Georgia;"> Here we have taken the dataset from John Hopkinson's university on the Covid dataset and studied the overall impact (deaths, cases, recovery rate of covid) across various parts of India over the period of time.▶︎ Here we have taken the dataset from John Hopkinson's university on the Covid dataset and studied the overall impact (deaths, cases, recovery rate of covid) across various parts of India over the period of time.
+
+[![How Covid has spread across different states in India](https://github.com/user-attachments/assets/2889f6cd-f613-489d-96b6-0db7a42d7f2f
+)
 
 -------
