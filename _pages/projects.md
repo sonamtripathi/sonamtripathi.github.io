@@ -1,11 +1,12 @@
-
 ---
 layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
-
+redirect_from:
+  - /about
 ---
+
 {% include base_path %}
 
 ## <span style = "font-family: Georgia;"> MNIST_digit_recognizer </span>
