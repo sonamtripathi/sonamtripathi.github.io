@@ -11,7 +11,7 @@ redirect_from:
 
 ## <span style = "font-family: Georgia;"> MNIST_digit_recognizer </span>
 
-[![View on GitHub](https://github.com/sonamtripathi/MNIST_digit_recognizer)
+[![View on GitHub](https://github.com/sonamtripathi/MNIST_digit_recognizer)]
 
 <span style="font-family: Cambria;"> This project focuses on analyzing the World Economic Indicator dataset to uncover the factors contributing to sustainable growth in various countries and regions. By examining a range of economic indicators, I aimed to provide actionable insights into how nations can achieve long-term economic stability. </span>
 
