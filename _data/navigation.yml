@@ -1,0 +1,27 @@
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+
+main:
+  #- title: "About Me"
+    #url: /about_me/
+
+  - title: "Education & Experience"
+    url: /edu_exp/    
+
+  - title: "Blog Posts"
+    url: /blogs/    
+    
+  - title: "Projects"
+    url: /projects/
+        
+  #- title: "Blog Posts"
+    #url: /url:/medium/
+    
+  #- title: "CV"
+    #url: /cv/
+    
+  #- title: "Guide"
+    #url: /markdown/
