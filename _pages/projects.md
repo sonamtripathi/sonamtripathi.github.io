@@ -78,7 +78,6 @@ Run the "Face_Detection_OpenCV.py" file but before that download the Haar Cascad
 
 <span style="font-family: Georgia;"> Here we have taken the dataset from John Hopkinson's university on the Covid dataset and studied the overall impact (deaths, cases, recovery rate of covid) across various parts of India over the period of time.▶︎ Here we have taken the dataset from John Hopkinson's university on the Covid dataset and studied the overall impact (deaths, cases, recovery rate of covid) across various parts of India over the period of time.
 
-[![How Covid has spread across different states in India](https://github.com/user-attachments/assets/2889f6cd-f613-489d-96b6-0db7a42d7f2f
-)
+[How Covid has spread across different states in India](https://github.com/user-attachments/assets/2889f6cd-f613-489d-96b6-0db7a42d7f2f)
 
 -------
