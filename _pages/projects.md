@@ -21,17 +21,9 @@ redirect_from:
 
 ▶︎ We have trained the custom NER model using CRF which was successfully able to identify 91% of the disease and their treatments from the given text data.
 
-▶︎ Here the objective is to identify the diseases and predicted treatment using a custom NER from the text data which is taken from a web platform (“Be Healthy”) which allows doctors to list their services and manage patient interactions and provides services for patients. 
-
-▶︎ After processing the 3k doctor and patient’s interaction text data which is given in the form of tokens and then we identify all the words from the corpus that have a POS tag of NOUN or PROPN (nouns) and prepare a dictionary of their counts which was further used in the CRF model. 
-
-▶︎ We have trained the custom NER model using CRF which was successfully able to identify 91% of the disease and their treatments from the given text data.
-
 Example:- “The patient was a 62-year-old man with squamous cell lung cancer, which was first successfully treated by a combination of radiation therapy and chemotherapy.”
 
 As you can see in this text, a person with a non-medical background cannot understand the various medical terms. We have taken a simple sentence from a medical data set to understand the problem and where you can understand the terms ‘cancer’ and ‘chemotherapy’.
-
-Suppose you have been given such a data set in which a lot of text is written related to the medical domain. As you can see in the dataset, there are a lot of diseases that can be mentioned in the entire dataset and their related treatments are also mentioned implicitly in the text, which you saw in the aforementioned example that the disease mentioned is cancer and its treatment can be identified as chemotherapy using the sentence.
 
 -------
 
@@ -39,7 +31,9 @@ Suppose you have been given such a data set in which a lot of text is written re
 
 [Topic Modeling Complaints using Non-Negative Matrix Factorization](https://github.com/sonamtripathi/NLP-Project)
 
-<span style="font-family: Georgia;"> ▶︎ Build different models (Logistic Regression, Naive Bayes, Decision Tree and Random Forest) for a financial company’s customer complaints data which is successfully able to classify 93% of the customer complaints text based on the product/services.
+<span style="font-family: Georgia;"> 
+
+▶︎ Build different models (Logistic Regression, Naive Bayes, Decision Tree and Random Forest) for a financial company’s customer complaints data which is successfully able to classify 93% of the customer complaints text based on the product/services.
 
  ▶︎ The proposed model significantly resolved the complaints processing time, which bring down customer dissatisfaction to a minimum and retain them with stronger loyalty.
  
@@ -49,7 +43,9 @@ Suppose you have been given such a data set in which a lot of text is written re
 
 [MNIST Digit recognizer](https://github.com/sonamtripathi/MNIST_digit_recognizer)
 
-<span style="font-family: Georgia;"> This project focuses on identifying the hand-written digits in real-time using the 3 Models(Logistic Regression, Simple Neural network, Deep Learning Model) 
+<span style="font-family: Georgia;"> 
+
+This project focuses on identifying the hand-written digits in real-time using the 3 Models(Logistic Regression, Simple Neural network, Deep Learning Model) 
 
 **Softmax Regression:**
 First we have use Simple Multinominal Logistic Regression or Softmax Regression. It is a generalization of Logistic regression for those cases where we want to handle multiple classes.In Logistic Regression we assumed that the labels are binary: . We used such a classifier to distinguish between two kinds of hand-written digits.Softmax Regression allows us to handle  where K is the number of Classes.In the softmax regression, we are interested in multi-class classification and so the label y can take K different values, rather than only two. Thus, in our training set , we now have that .In our MNIST digit recognition task, we would have K = 10 different classes.
