@@ -10,12 +10,12 @@ redirect_from:
 {% include base_path %}
 ## 👩🏻‍💻  Technical Skills
 - **Machine Learning**
-    - **Supervised Learning Techniques:-** Regression, Regularization techniques, SVM, Naive Bayes,Decison Tree,Bagging (Random Forest) and Boosting techniques(AdaBoost, XgBoost, Gradient Boosting), Neural Network, ,Survival Models, Market Mix Modeling.
+    - **Supervised Learning Techniques:-** Regression, Regularization techniques, SVM, Naive Bayes,Decison Tree,Bagging and Boosting techniques, Neural Network, ,Survival Models, Market Mix Modeling.
     - **UnSupervised Learning Techniques:-** Clustering Techniques (K-means, DBSCAN)
     - **Dimensionality Reduction Techniques:-** PCA, t-SNE
-- **Deep Learning** RNN, LSTM, GRU, CNN and its different architectures, Object Detection Techniques, Encoder-Decoders, Transformer Models, LLMs (BERT and its variants, T5, GPT and its versions).
-- **Frameworks:-** Keras, Pytorch, LangChain, LangGraph, CrewAI
-- **Languages:-** Python, R, SQL
+- **Deep Learning** RNN, LSTM, GRU, CNN and its different architectures,LLMs (BERT and its variants, T5, GPT).
+- **Frameworks:-** Keras, Pytorch, LangChain
+- **Languages:-** Python, R
 
 ## 💼 Work experience 
 - **Eli Lilly & Company**, Principal AI/ML, Bengaluru, India (Jan 2023 - Present)
