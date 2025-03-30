@@ -18,7 +18,7 @@ redirect_from:
 - **Languages:-** Python, R
 
 ## 💼 Work experience 
-- **Eli Lilly & Company**, Principal AI/ML, Bengaluru, India (Jan 2023 - Present)
+- **Eli Lilly & Company**, Sr.Principal AI/ML, Bengaluru, India (Jan 2023 - Present)
 - **Novartis**, Sr.Data Analyst, Hyderabad, India (April 2019 - Dec 2022)
 - **PiSqaure.io**, Jr. Data Scientist, Bengaluru,India (Feb 2017 - Feb 2019)	 			        		
 - **Prakshep**, Data Science Intern, Bengaluru, India (Oct 2016 - Dec 2016)
