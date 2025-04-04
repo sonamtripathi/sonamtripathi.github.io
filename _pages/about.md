@@ -7,7 +7,6 @@ redirect_from:
   - /about/
 ---
 
-![my_gibli_pic](https://github.com/user-attachments/assets/b3969b67-87f3-44ef-b372-f73645131631)
 
 👩🏻‍💻 Machine learning and Artificial Intelligence(AI) professional with 8+ years of MNCs and Startups experience in traditional Machine learning, Deep Learning ,LLMs, Business Analytics and Software Development. Currently working as Principal AI/ML at Lilly. 
  
