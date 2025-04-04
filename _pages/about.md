@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-👩🏻‍💻 Machine learning and Artificial Intelligence(AI) professional with 8+ years of MNCs and Startups experience in traditional Machine learning, Deep Learning ,LLMs, Business Analytics and Software Development. Currently working as Principal AI/ML at Lilly. 
+<span style="font-size: 12px;"> 👩🏻‍💻 Machine learning and Artificial Intelligence(AI) professional with 8+ years of MNCs and Startups experience in traditional Machine learning, Deep Learning ,LLMs, Business Analytics and Software Development. Currently working as Principal AI/ML at Lilly. 
  
 🔬 I specialize in helping companies transform their data into actionable insights and optimize processes for real business value. 
 
@@ -16,7 +16,7 @@ redirect_from:
 
 🌅 🏃🏻‍♀️🏓 🎧 When I am not buried in data, you'll catch me exploring Nature, enjoying long walks with my favorite tunes, playing badminton and table tennis, and cherishing quality time with my family.
 
- 🎯 🤖 My main focus these days is exploring and building Agentic AI, how agents will transform they way we work and operate.
+ 🎯 🤖 My main focus these days is exploring and building Agentic AI, how agents will transform they way we work and operate.</span>
 
 
 
