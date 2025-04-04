@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.container div {
+    width: 100%;
+}
+
+.container .header {
+    background-color: #d3d3d3;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .content {
+    display: none;
+    padding: 10px;
+}
