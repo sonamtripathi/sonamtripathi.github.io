@@ -1,11 +1,11 @@
 .container {
-    width: 90%;
+    width: 100%;
     border: 1px solid #d3d3d3;
     box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
 .container div {
-    width: 90%;
+    width: 100%;
 }
 
 .container .header {
