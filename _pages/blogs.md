@@ -7,6 +7,24 @@ author_profile: true
 
 {% include base_path %}
 
+## <span style="font-family: Georgia;"> 📚 📚 Technical Breakdown into the Model Context Protocol (MCP)</span>
+<span style="font-family: Cambria;"> **Date Published:** *April 6, 2025* </span>
+
+<span style="font-family: Cambria;">MCP is an open protocol that standardises how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardised way to connect your devices to various peripherals and accessories, MCP provides a standardised way to connect AI models to different data sources and tools. In this section, we’ll dive into the technical aspects of the Model Context Protocol (MCP), including the key components involved in its design, how it is implemented, and how AI models, particularly Large Language Models (LLMs), interact with external data and tools using MCP.</span>
+
+<a href="https://medium.com/@tripathisonam/technical-breakdown-into-the-model-context-protocol-mcp-8b31f6419253" class="custom-btn" style="background-color: #4272D4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px; font-family: Georgia, serif;">Read Full Article Here</a>
+
+------
+
+## <span style="font-family: Georgia;"> 📚 📚  LangChain for Beginners: Step-by-Step Code Guide to Building Advanced AI Workflows</span>
+<span style="font-family: Cambria;"> **Date Published:** *March 30, 2025* </span>
+
+<span style="font-family: Cambria;">LangChain is a powerful framework designed to streamline the integration and deployment of large language models (LLMs) like GPT-3 and GPT-4 for building complex, interactive, and intelligent applications.It provides a simple, extensible architecture for chaining together various components, allowing developers to focus on what matters most: creating intelligent applications that can process, query, and understand language data.In this article, we’ll explore the key components of LangChain, how they work together, and how to get started with a simple example.</span>
+
+<a href="https://medium.com/@tripathisonam/exploring-langchain-a-comprehensive-guide-to-building-language-model-applications-44d6b86771a8" class="custom-btn" style="background-color: #4272D4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px; font-family: Georgia, serif;">Read Full Article Here</a>
+
+------
+
 ## <span style="font-family: Georgia;"> 📚 📚  Evolution of Object Detection techniques from Feature Descriptor to YOLOV8 Models (Part-I) </span>
 <span style="font-family: Cambria;"> **Date Published:** *December 29, 2024* </span>
 
