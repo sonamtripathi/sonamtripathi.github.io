@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sonam Tripathi — AI/ML Engineer</title>
+<meta name="description" content="Sonam Tripathi — Sr. Principal AI/ML at Eli Lilly. Building agentic systems, LLM and multimodal models. 8+ years across enterprise and startups." />
+<meta name="theme-color" content="#242A3A" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Sonam Tripathi — AI/ML Engineer" />
+<meta property="og:description" content="Building agentic systems, LLM and multimodal models." />
+<meta property="og:url" content="https://sonamtripathi.github.io/" />
+<meta property="og:image" content="https://sonamtripathi.github.io/images/profile_2.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<style>
+/* ============================================================
+   TOKENS — "dusk" mid-tone theme (readable, not too dark/light)
+   ============================================================ */
+:root{
+  --bg:#242A3A;
+  --bg-2:#1F2433;
+  --surface:#2C3346;
+  --surface-2:#343C52;
+  --ink:#EDEFF6;
+  --muted:#B3B9CC;
+  --muted-2:#868EA6;
+  --line:rgba(255,255,255,.10);
+  --line-strong:rgba(255,255,255,.18);
+  --violet:#9385FF;
+  --violet-soft:#B0A6FF;
+  --coral:#FF9C82;
+  --grad:linear-gradient(105deg,#9385FF 0%, #FF9C82 100%);
+  --shadow:0 12px 34px rgba(0,0,0,.32);
+  --shadow-sm:0 6px 18px rgba(0,0,0,.22);
+
+  --display:'Space Grotesk',system-ui,sans-serif;
+  --body:'Inter',system-ui,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+  --maxw:1140px;
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(720px 480px at 84% -8%, rgba(147,133,255,.18), transparent 60%),
+    radial-gradient(560px 420px at 2% 6%, rgba(255,156,130,.12), transparent 60%)}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+:focus-visible{outline:2px solid var(--violet-soft);outline-offset:3px;border-radius:6px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;position:relative;z-index:1}
+
+.eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--violet-soft);display:inline-flex;align-items:center;gap:9px}
+.eyebrow::before{content:"";width:22px;height:1px;background:var(--grad)}
+.section-head{margin-bottom:40px}
+.section-head h2{font-family:var(--display);font-weight:600;font-size:clamp(26px,4vw,40px);
+  line-height:1.1;letter-spacing:-.02em;margin-top:14px}
+.section-head p{color:var(--muted);max-width:60ch;margin-top:12px}
+.accent{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* NAV */
+header.nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);
+  background:rgba(36,42,58,.78);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-family:var(--display);font-weight:600;font-size:18px;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+.brand .dot{width:10px;height:10px;border-radius:50%;background:var(--grad);box-shadow:0 0 12px rgba(147,133,255,.6)}
+.nav-links{display:flex;gap:2px;align-items:center}
+.nav-links a{font-size:14px;color:var(--muted);padding:8px 11px;border-radius:9px;transition:.18s}
+.nav-links a:hover{color:var(--ink);background:rgba(255,255,255,.06)}
+.nav-links a.active{color:var(--ink)}
+.nav-cta{color:#1b2030!important;background:var(--grad);padding:9px 15px!important;border-radius:10px;font-weight:600}
+.nav-cta:hover{filter:brightness(1.06)}
+.burger{display:none;background:none;border:1px solid var(--line-strong);color:var(--ink);border-radius:9px;padding:8px 10px;cursor:pointer}
+
+/* HERO */
+.hero{padding:50px 0 64px}
+.hero-grid{display:grid;grid-template-columns:1.18fr .82fr;gap:48px;align-items:start}
+.hero h1{font-family:var(--display);font-weight:600;font-size:clamp(32px,5vw,54px);
+  line-height:1.05;letter-spacing:-.03em;margin:16px 0 0}
+.hero .tagline{color:var(--muted);font-size:clamp(15px,1.6vw,17.5px);margin-top:16px;max-width:50ch}
+.hero .tagline strong{color:var(--ink);font-weight:500}
+
+/* graph card under heading */
+.graph-card{position:relative;margin-top:26px;border:1px solid var(--line);border-radius:var(--r);
+  background:linear-gradient(180deg,var(--surface),rgba(44,51,70,.5));height:270px;overflow:hidden;box-shadow:var(--shadow-sm)}
+.graph-card canvas{position:absolute;inset:0;width:100%;height:100%}
+.graph-tag{position:absolute;left:16px;bottom:13px;font-family:var(--mono);font-size:11px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted-2);z-index:2}
+
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn{font-size:14.5px;font-weight:600;padding:12px 20px;border-radius:11px;border:1px solid var(--line-strong);
+  transition:.18s;display:inline-flex;align-items:center;gap:8px;background:var(--surface)}
+.btn.primary{background:var(--grad);color:#1b2030;border-color:transparent;box-shadow:var(--shadow-sm)}
+.btn.primary:hover{filter:brightness(1.06);transform:translateY(-1px)}
+.btn.ghost:hover{border-color:var(--line-strong);transform:translateY(-1px);background:var(--surface-2)}
+.socials{display:flex;gap:14px;margin-top:22px;font-family:var(--mono);font-size:13px;flex-wrap:wrap}
+.socials a{color:var(--muted);transition:.18s;border-bottom:1px solid transparent;padding-bottom:2px}
+.socials a:hover{color:var(--ink);border-color:var(--violet-soft)}
+
+/* hero portrait (extreme right) */
+.portrait-col{display:flex;justify-content:flex-end}
+.portrait-frame{position:relative;width:100%;max-width:360px;aspect-ratio:4/5;border-radius:22px;
+  overflow:hidden;border:1px solid var(--line-strong);box-shadow:var(--shadow);
+  background:linear-gradient(160deg,var(--surface-2),var(--bg-2))}
+.portrait-frame::after{content:"";position:absolute;inset:0;border-radius:22px;pointer-events:none;
+  box-shadow:inset 0 -90px 70px -40px rgba(31,36,51,.85)}
+.portrait-img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.portrait-fallback{display:none;position:absolute;inset:0;align-items:center;justify-content:center;
+  font-family:var(--display);font-weight:600;font-size:84px;color:var(--violet-soft);
+  background:radial-gradient(circle at 50% 35%, rgba(147,133,255,.25), transparent 65%)}
+.portrait-badge{position:absolute;left:14px;bottom:14px;z-index:3;font-family:var(--mono);font-size:11.5px;
+  letter-spacing:.04em;color:var(--ink);background:rgba(28,33,48,.7);backdrop-filter:blur(6px);
+  border:1px solid var(--line-strong);border-radius:999px;padding:7px 13px;display:inline-flex;align-items:center;gap:7px}
+.portrait-badge::before{content:"";width:7px;height:7px;border-radius:50%;background:#43d6a0;box-shadow:0 0 8px #43d6a0}
+
+/* SECTIONS */
+section{padding:84px 0;position:relative}
+.tint{background:var(--bg-2)}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:46px;align-items:center}
+.about-photo{border-radius:var(--r);overflow:hidden;border:1px solid var(--line-strong);box-shadow:var(--shadow);
+  aspect-ratio:1/1;background:linear-gradient(160deg,var(--surface-2),var(--bg-2));position:relative}
+.about-photo img{width:100%;height:100%;object-fit:cover}
+.about-photo .pf{display:none;position:absolute;inset:0;align-items:center;justify-content:center;
+  font-family:var(--display);font-weight:600;font-size:64px;color:var(--violet-soft)}
+.about-body p{color:var(--muted);margin-bottom:15px}
+.about-body p strong{color:var(--ink);font-weight:500}
+.stat-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.stat{border:1px solid var(--line);border-radius:13px;padding:14px 18px;background:var(--surface);box-shadow:var(--shadow-sm);flex:1;min-width:130px}
+.stat .num{font-family:var(--display);font-size:24px;font-weight:600;letter-spacing:-.02em}
+.stat .lbl{color:var(--muted);font-size:12.5px;margin-top:2px}
+
+/* SKILLS tabs */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:30px;border-bottom:1px solid var(--line);padding-bottom:14px}
+.tab{font-family:var(--mono);font-size:13px;background:var(--surface);border:1px solid var(--line);color:var(--muted);
+  padding:9px 16px;border-radius:999px;cursor:pointer;transition:.18s;white-space:nowrap}
+.tab:hover{color:var(--ink);border-color:var(--line-strong)}
+.tab.active{color:#1b2030;background:var(--grad);border-color:transparent;font-weight:500}
+.skill-panel{display:none;animation:fade .4s ease}
+.skill-panel.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.skill-lead{color:var(--muted);max-width:62ch;margin-bottom:22px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1px solid var(--line);border-radius:11px;padding:11px 15px;background:var(--surface);box-shadow:var(--shadow-sm);
+  font-size:14px;transition:.18s;display:inline-flex;align-items:center;gap:9px}
+.chip:hover{border-color:var(--violet);transform:translateY(-2px);background:var(--surface-2)}
+.chip .pip{width:7px;height:7px;border-radius:2px;background:var(--grad)}
+
+/* EXPERIENCE timeline */
+.timeline{position:relative;padding-left:30px;max-width:760px}
+.timeline::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:var(--line-strong)}
+.tl-item{position:relative;padding-bottom:30px}
+.tl-item:last-child{padding-bottom:0}
+.tl-item::before{content:"";position:absolute;left:-30px;top:5px;width:14px;height:14px;border-radius:50%;
+  background:var(--bg);border:3px solid var(--violet);box-shadow:0 0 0 4px var(--bg)}
+.tl-item.current::before{background:var(--grad);border-color:transparent}
+.tl-date{font-family:var(--mono);font-size:12px;color:var(--violet-soft);letter-spacing:.04em}
+.tl-role{font-family:var(--display);font-weight:600;font-size:18px;margin-top:4px;letter-spacing:-.01em}
+.tl-co{font-size:15px;color:var(--ink);font-weight:500;margin-top:1px}
+.tl-meta{font-size:13.5px;color:var(--muted-2);margin-top:3px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.tl-tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted-2);border:1px solid var(--line);border-radius:6px;padding:2px 7px}
+
+/* EDUCATION */
+.edu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.edu-card{border:1px solid var(--line);border-radius:14px;padding:20px 22px;background:var(--surface);box-shadow:var(--shadow-sm);transition:.2s}
+.edu-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:var(--line-strong)}
+.edu-deg{font-family:var(--display);font-weight:600;font-size:17px;letter-spacing:-.01em}
+.edu-field{color:var(--muted);font-size:14px;margin-top:3px}
+.edu-inst{margin-top:12px;font-size:13px;color:var(--muted-2);font-family:var(--mono);display:flex;flex-direction:column;gap:2px}
+.edu-inst .yr{color:var(--violet-soft)}
+
+/* CARDS (writing + work) */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.card{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:var(--shadow-sm);
+  padding:22px;display:flex;flex-direction:column;gap:12px;transition:.2s;position:relative;overflow:hidden}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--line-strong)}
+.card .ktype{font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--violet-soft)}
+.card h3{font-family:var(--display);font-weight:600;font-size:19px;line-height:1.25;letter-spacing:-.01em}
+.card p{color:var(--muted);font-size:14.5px;flex:1}
+.card .foot{display:flex;align-items:center;gap:14px;font-family:var(--mono);font-size:12px;color:var(--muted-2);margin-top:4px;flex-wrap:wrap}
+.card .foot .lang{display:inline-flex;align-items:center;gap:6px}
+.card .foot .lang::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--violet)}
+.card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;border:1px solid var(--line);background:var(--bg-2)}
+.repo-cover{width:100%;aspect-ratio:16/9;border-radius:10px;border:1px solid var(--line);position:relative;overflow:hidden;
+  display:flex;align-items:center;justify-content:center;
+  background:
+    radial-gradient(120% 120% at 18% 8%, rgba(147,133,255,.34), transparent 55%),
+    radial-gradient(120% 120% at 88% 92%, rgba(255,156,130,.30), transparent 55%),
+    var(--bg-2)}
+.repo-cover::before{content:"";position:absolute;inset:0;opacity:.5;
+  background-image:radial-gradient(rgba(255,255,255,.10) 1px, transparent 1px);background-size:14px 14px}
+.repo-cover .glyph{font-family:var(--mono);font-weight:500;font-size:30px;color:var(--ink);opacity:.92;position:relative;z-index:1}
+.repo-cover .lang-badge{position:absolute;left:10px;bottom:9px;z-index:2;font-family:var(--mono);font-size:11px;color:var(--ink);
+  background:rgba(28,33,48,.62);backdrop-filter:blur(4px);border:1px solid var(--line);border-radius:999px;padding:3px 10px;display:inline-flex;align-items:center;gap:7px}
+.repo-cover .lang-badge::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--violet-soft)}
+.repo-cover .star-badge{position:absolute;right:10px;bottom:9px;z-index:2;font-family:var(--mono);font-size:11px;color:var(--ink);
+  background:rgba(28,33,48,.62);backdrop-filter:blur(4px);border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+.card-link{position:absolute;inset:0;z-index:3}
+.subnote{font-family:var(--mono);font-size:12.5px;color:var(--muted-2);margin-top:22px}
+.subnote a{color:var(--violet-soft);border-bottom:1px solid var(--line)}
+.skeleton{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:22px;height:190px;position:relative;overflow:hidden}
+.skeleton::after{content:"";position:absolute;inset:0;transform:translateX(-100%);
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent);animation:shimmer 1.4s infinite}
+@keyframes shimmer{100%{transform:translateX(100%)}}
+.fallback{grid-column:1/-1;border:1px dashed var(--line-strong);border-radius:var(--r);padding:28px;text-align:center;color:var(--muted)}
+.fallback a{color:var(--violet-soft);font-weight:600}
+
+/* CONTACT / FOOTER */
+.contact{text-align:center;padding-bottom:40px}
+.contact h2{font-family:var(--display);font-weight:600;font-size:clamp(28px,5vw,46px);letter-spacing:-.02em;line-height:1.08}
+.contact p{color:var(--muted);max-width:48ch;margin:16px auto 0}
+.contact .cta-row{justify-content:center}
+footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted-2);font-size:13px}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
+.footer-inner .mono{font-family:var(--mono)}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:36px}
+  .portrait-col{justify-content:center;order:-1}
+  .portrait-frame{max-width:300px}
+  .about-grid{grid-template-columns:1fr;gap:30px}
+  .about-photo{max-width:320px;margin:0 auto}
+  .nav-links{display:none}
+  .nav-links.open{display:flex;position:absolute;top:64px;left:0;right:0;flex-direction:column;
+    background:rgba(36,42,58,.98);border-bottom:1px solid var(--line);padding:14px 24px;gap:4px}
+  .nav-links.open a{padding:12px}
+  .burger{display:block}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand"><span class="dot"></span>Sonam Tripathi</a>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav class="nav-links" id="navlinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#writing">Writing</a>
+      <a href="#work">Projects</a>
+      <a href="mailto:tripathi92sonam@gmail.com" class="nav-cta">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<a id="top"></a>
+<section class="hero" style="padding-top:42px">
+  <div class="wrap hero-grid">
+    <div class="hero-left">
+      <span class="eyebrow">Sr. Principal AI/ML · Eli Lilly · Bengaluru</span>
+      <h1>Turning data into <span class="accent">reasoning agents</span> that act.</h1>
+      <p class="tagline">9+ years across enterprise and startups — from statistics and classical ML to
+        <strong>deep learning, LLMs and agentic systems</strong>.</p>
+
+      <!-- DYNAMIC SKILL GRAPH (under the heading) -->
+      <div class="graph-card">
+        <canvas id="graph" aria-hidden="true"></canvas>
+        <span class="graph-tag">// skill graph — hover to explore</span>
+      </div>
+
+      <div class="cta-row">
+        <a href="#experience" class="btn primary">My experience →</a>
+        <a href="#work" class="btn ghost">View projects</a>
+        <a href="#writing" class="btn ghost">Read my writing</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/sonamtripathi" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/sonamtripathi" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://tripathisonam.medium.com/" target="_blank" rel="noopener">Medium</a>
+        <a href="https://kaggle.com/geekysaint" target="_blank" rel="noopener">Kaggle</a>
+      </div>
+    </div>
+
+    <!-- PHOTO (extreme right) -->
+    <div class="portrait-col">
+      <figure class="portrait-frame">
+        <!-- Replace src with your preferred photo (e.g. images/profile_2.jpg) -->
+        <img class="portrait-img" src="https://sonamtripathi.github.io/images/profile_2.jpg" alt="Sonam Tripathi"
+             onerror="this.style.display='none';this.parentNode.querySelector('.portrait-fallback').style.display='flex'" />
+        <div class="portrait-fallback">ST</div>
+        <span class="portrait-badge">Open to AI engineering roles</span>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT (photo + text) -->
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">About me</span>
+      <h2>I help companies turn data into real business value.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-photo">
+        <img src="https://sonamtripathi.github.io/images/profile_2.jpg" alt="Sonam Tripathi"
+             onerror="this.style.display='none';this.parentNode.querySelector('.pf').style.display='flex'" />
+        <div class="pf">ST</div>
+      </div>
+      <div class="about-body">
+        <p>I'm a machine learning and AI professional, currently <strong>Sr. Principal AI/ML at Eli Lilly &amp; Company</strong>.
+          Over the last nine years I've worked across MNCs and startups — building on a foundation in statistics and classical
+          ML, then deep learning, NLP and LLMs.</p>
+        <p>My specialty is <strong>transforming messy data into actionable insight</strong> and shipping models that optimize real
+          processes. I've built and led advanced-analytics work and delivered ML, NLP and deep-learning projects across very
+          different industries.</p>
+        <p>Right now my focus is <strong>agentic AI and multi-modal systems</strong> — understanding how autonomous agents will
+          reshape how we work, and building the systems that get us there. Away from data, you'll find me on long walks with my
+          favourite tunes, on a badminton or table-tennis court, or with my family.</p>
+        <div class="stat-row">
+          <div class="stat"><div class="num"><span class="accent">8+</span></div><div class="lbl">Years in AI &amp; ML</div></div>
+          <div class="stat"><div class="num">5 <span class="accent">roles</span></div><div class="lbl">Intern → Sr. Principal</div></div>
+          <div class="stat"><div class="num">M.S. <span class="accent">ML&amp;AI</span></div><div class="lbl">+ PG Diploma, IIIT-B</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="tint">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Capabilities</span>
+      <h2>The stack I build with.</h2>
+      <p>From statistical foundations to production LLM and agentic systems.</p>
+    </div>
+    <div class="tabs" id="tabs"></div>
+    <div id="panels"></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Experience</span>
+      <h2>Where I've worked.</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl-item current">
+        <div class="tl-date">Jan 2023 — Present · ~3.5 yrs</div>
+        <div class="tl-role">Sr. Principal AI/ML</div>
+        <div class="tl-co">Eli Lilly &amp; Company</div>
+        <div class="tl-meta"><span>Bengaluru, India</span></div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Apr 2019 — Dec 2022 · 3 yrs 9 mos</div>
+        <div class="tl-role">Sr. Data Analyst</div>
+        <div class="tl-co">Novartis</div>
+        <div class="tl-meta"><span>Hyderabad, India</span></div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Feb 2017 — Feb 2019 · 2 yrs</div>
+        <div class="tl-role">Jr. Data Scientist</div>
+        <div class="tl-co">PiSquare.io</div>
+        <div class="tl-meta"><span>Bengaluru, India</span></div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Oct 2016 — Dec 2016 · 3 mos</div>
+        <div class="tl-role">Data Science Intern</div>
+        <div class="tl-co">Prakshep</div>
+        <div class="tl-meta"><span>Bengaluru, India</span><span class="tl-tag">Internship</span></div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Apr 2014 — May 2015 · 1 yr 2 mos</div>
+        <div class="tl-role">Software Trainee Intern</div>
+        <div class="tl-co">SoftVan</div>
+        <div class="tl-meta"><span>Ahmedabad, India</span><span class="tl-tag">Trainee</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="tint">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Education</span>
+      <h2>What I studied.</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-deg">M.S.</div>
+        <div class="edu-field">Machine Learning &amp; Artificial Intelligence</div>
+        <div class="edu-inst"><span>Liverpool John Moores University</span><span class="yr">2021–2023</span></div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-deg">PG Diploma</div>
+        <div class="edu-field">Machine Learning &amp; Artificial Intelligence</div>
+        <div class="edu-inst"><span>IIIT-Bangalore</span><span class="yr">2021–2022</span></div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-deg">PGDAST</div>
+        <div class="edu-field">Statistics</div>
+        <div class="edu-inst"><span>IGNOU</span><span class="yr">2017–2019</span></div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-deg">B.E.</div>
+        <div class="edu-field">Computer Engineering</div>
+        <div class="edu-inst"><span>Gandhinagar Institute of Technology</span><span class="yr">2011–2015</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WRITING -->
+<section id="writing">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Writing</span>
+      <h2>Notes from the field, on Medium.</h2>
+      <p>Latest posts pulled live from my Medium feed.</p>
+    </div>
+    <div class="cards" id="medium-cards">
+      <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+    </div>
+    <p class="subnote">All posts → <a href="https://tripathisonam.medium.com/" target="_blank" rel="noopener">tripathisonam.medium.com</a></p>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work" class="tint">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Projects</span>
+      <h2>Selected work from GitHub.</h2>
+      <p>Repositories pulled live, sorted by stars and recent activity.</p>
+    </div>
+    <div class="cards" id="gh-cards">
+      <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+    </div>
+    <p class="subnote">All repos → <a href="https://github.com/sonamtripathi" target="_blank" rel="noopener">github.com/sonamtripathi</a></p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <span class="eyebrow" style="justify-content:center;display:inline-flex">Let's talk</span>
+    <h2>Building something with <span class="accent">agents</span>?<br>I'd love to hear about it.</h2>
+    <p>Open to conversations about AI engineering roles, agentic systems and applied ML.</p>
+    <div class="cta-row">
+      <a href="mailto:tripathi92sonam@gmail.com" class="btn primary">Email me</a>
+      <a href="https://www.linkedin.com/in/sonamtripathi" target="_blank" rel="noopener" class="btn ghost">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© <span id="year"></span> Sonam Tripathi</span>
+    <span class="mono">Bengaluru, India · built for the next chapter</span>
+  </div>
+</footer>
+
+<script>
+/* ============================ CONFIG ============================ */
+const GITHUB_USER='sonamtripathi';
+const MEDIUM_FEED='https://tripathisonam.medium.com/feed';
+const MAX_REPOS=6, MAX_POSTS=6;
+
+const SKILLS={
+  'Machine Learning':{
+    lead:'Statistical and classical ML — the foundation under everything I build.',
+    items:['Regression','Regularization','SVM','Naive Bayes','Decision Trees','Bagging & Boosting','Survival Models','Market Mix Modeling','K-Means','DBSCAN','PCA','t-SNE']
+  },
+  'Deep Learning':{
+    lead:'Neural architectures across sequence, vision and language.',
+    items:['Neural Networks','RNN','LSTM','GRU','CNN','BERT & variants','T5','GPT']
+  },
+  'Generative & Agentic AI':{
+    lead:'My current focus — systems that reason, plan and act.',
+    items:['LLMs','Agentic systems','Multi-modal learning','Retrieval-Augmented Generation','LangChain','Fine-tuning','Prompt engineering']
+  },
+  'Tools & Languages':{
+    lead:'What I reach for to get models from notebook to production.',
+    items:['Python','R','PyTorch','Keras','LangChain','Pandas / NumPy','scikit-learn']
+  }
+};
+
+/* ============================ SKILLS TABS ============================ */
+(function(){
+  const tabsEl=document.getElementById('tabs'), panelsEl=document.getElementById('panels');
+  Object.keys(SKILLS).forEach((name,i)=>{
+    const t=document.createElement('button');
+    t.className='tab'+(i===0?' active':''); t.textContent=name; t.dataset.i=i;
+    tabsEl.appendChild(t);
+    const p=document.createElement('div');
+    p.className='skill-panel'+(i===0?' active':''); p.dataset.i=i;
+    p.innerHTML='<p class="skill-lead">'+SKILLS[name].lead+'</p><div class="chips">'+
+      SKILLS[name].items.map(s=>'<span class="chip"><span class="pip"></span>'+s+'</span>').join('')+'</div>';
+    panelsEl.appendChild(p);
+  });
+  tabsEl.addEventListener('click',e=>{
+    const t=e.target.closest('.tab'); if(!t)return;
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.skill-panel').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    document.querySelector('.skill-panel[data-i="'+t.dataset.i+'"]').classList.add('active');
+  });
+})();
+
+/* ============================ GITHUB ============================ */
+(async function(){
+  const box=document.getElementById('gh-cards');
+  try{
+    const res=await fetch('https://api.github.com/users/'+GITHUB_USER+'/repos?sort=updated&per_page=100');
+    if(!res.ok) throw 0;
+    let repos=(await res.json()).filter(r=>!r.fork)
+      .sort((a,b)=>(b.stargazers_count-a.stargazers_count)||(new Date(b.updated_at)-new Date(a.updated_at)))
+      .slice(0,MAX_REPOS);
+    if(!repos.length) throw 0;
+    box.innerHTML=repos.map(r=>{
+      const updated=new Date(r.updated_at).toLocaleDateString('en-US',{month:'short',year:'numeric'});
+      return '<article class="card">'+
+        '<div class="repo-cover"><span class="glyph">&lt;/&gt;</span>'+
+          (r.language?'<span class="lang-badge">'+esc(r.language)+'</span>':'')+
+          (r.stargazers_count?'<span class="star-badge">★ '+r.stargazers_count+'</span>':'')+
+        '</div>'+
+        '<span class="ktype">Repository · Updated '+updated+'</span>'+
+        '<h3>'+esc(r.name)+'</h3>'+
+        '<p>'+esc(r.description||'No description provided yet.')+'</p>'+
+        '<div class="foot">'+(r.language?'<span class="lang">'+esc(r.language)+'</span>':'')+
+          '<span>★ '+r.stargazers_count+'</span><span>⑂ '+r.forks_count+'</span></div>'+
+        '<a class="card-link" href="'+r.html_url+'" target="_blank" rel="noopener" aria-label="'+esc(r.name)+'"></a></article>';
+    }).join('');
+  }catch(e){
+    box.innerHTML='<div class="fallback">Couldn\'t load repositories right now (GitHub\'s API is rate-limited).<br>'+
+      'Browse them at <a href="https://github.com/'+GITHUB_USER+'" target="_blank" rel="noopener">github.com/'+GITHUB_USER+'</a>.</div>';
+  }
+})();
+
+/* ============================ MEDIUM ============================ */
+(async function(){
+  const box=document.getElementById('medium-cards');
+  try{
+    const res=await fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(MEDIUM_FEED));
+    const data=await res.json();
+    if(data.status!=='ok'||!data.items||!data.items.length) throw 0;
+    box.innerHTML=data.items.slice(0,MAX_POSTS).map(p=>{
+      const img=p.thumbnail||firstImg(p.content)||'';
+      const date=new Date(p.pubDate).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+      return '<article class="card">'+
+        (img?'<img class="thumb" src="'+img+'" alt="" loading="lazy" onerror="this.remove()"/>':'')+
+        '<span class="ktype">Article · '+date+'</span>'+
+        '<h3>'+esc(p.title)+'</h3>'+
+        '<p>'+esc(stripHtml(p.description).slice(0,140))+'…</p>'+
+        '<a class="card-link" href="'+p.link+'" target="_blank" rel="noopener" aria-label="'+esc(p.title)+'"></a></article>';
+    }).join('');
+  }catch(e){
+    box.innerHTML='<div class="fallback">Couldn\'t load Medium posts right now.<br>'+
+      'Read them at <a href="https://tripathisonam.medium.com/" target="_blank" rel="noopener">tripathisonam.medium.com</a>.</div>';
+  }
+})();
+function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function stripHtml(h){const d=document.createElement('div');d.innerHTML=h||'';return (d.textContent||'').trim()}
+function firstImg(h){const m=/<img[^>]+src="([^"]+)"/.exec(h||'');return m?m[1]:''}
+
+/* ============================ SKILL GRAPH (canvas constellation) ============================ */
+(function(){
+  const canvas=document.getElementById('graph'); if(!canvas) return;
+  const reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  const ctx=canvas.getContext('2d');
+  const NAME='Sonam Tripathi';
+  const labels=['Statistics','Machine Learning','Deep Learning','Agentic Systems','Multi-modal','LLMs','NLP','RAG'];
+  let W,H,DPR,cx,cy,RX,RY,nodes=[],mouse={x:-999,y:-999},raf;
+
+  function size(){
+    DPR=Math.min(window.devicePixelRatio||1,2);
+    const r=canvas.getBoundingClientRect(); W=r.width; H=r.height;
+    canvas.width=W*DPR; canvas.height=H*DPR; ctx.setTransform(DPR,0,0,DPR,0,0);
+    cx=W/2; cy=H/2;
+    RX=Math.min(W*0.33,240); RY=Math.min(H*0.34,94);   // cluster tightly around the name
+    nodes=labels.map((l,i)=>({label:l, base:(i/labels.length)*Math.PI*2 - Math.PI/2,
+      ph:Math.random()*Math.PI*2, x:cx, y:cy, hot:0}));
+  }
+  function dist(ax,ay,bx,by){return Math.hypot(ax-bx,ay-by)}
+  function lerp(a,b,t){return Math.round(a+(b-a)*t)}
+
+  function step(){
+    const t=reduce?0:performance.now()/1000;
+    ctx.clearRect(0,0,W,H);
+    // position each skill on a gently breathing ellipse around the centre
+    nodes.forEach(n=>{
+      const a=n.base + Math.sin(t*0.4+n.ph)*0.06;
+      const rx=RX*(1+Math.sin(t*0.6+n.ph)*0.04), ry=RY*(1+Math.cos(t*0.5+n.ph)*0.05);
+      n.x=cx+rx*Math.cos(a); n.y=cy+ry*Math.sin(a);
+      n.hot=Math.max(0,1-dist(n.x,n.y,mouse.x,mouse.y)/120);
+    });
+    // spokes: centre -> each skill
+    nodes.forEach(n=>{
+      ctx.strokeStyle='rgba(147,133,255,'+(0.18+n.hot*0.55)+')';
+      ctx.lineWidth=0.7+n.hot*1.2;
+      ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(n.x,n.y);ctx.stroke();
+    });
+    // faint web between neighbouring skills (keeps them feeling connected/close)
+    for(let i=0;i<nodes.length;i++){
+      const a=nodes[i], b=nodes[(i+1)%nodes.length];
+      ctx.strokeStyle='rgba(147,133,255,0.10)'; ctx.lineWidth=0.6;
+      ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();
+    }
+    // skill nodes + labels (pushed outward so they don't crowd the name)
+    ctx.textBaseline='middle';
+    nodes.forEach(n=>{
+      ctx.beginPath();ctx.arc(n.x,n.y,4+n.hot*2.5,0,Math.PI*2);
+      ctx.fillStyle='rgba('+lerp(147,255,n.hot)+','+lerp(133,156,n.hot)+','+lerp(255,130,n.hot)+',1)';
+      ctx.fill();
+      const dx=n.x-cx, dy=n.y-cy, len=Math.hypot(dx,dy)||1;
+      const lx=n.x+(dx/len)*10, ly=n.y+(dy/len)*10;
+      ctx.textAlign = dx>12?'left' : dx<-12?'right' : 'center';
+      ctx.font='500 11.5px "JetBrains Mono", monospace';
+      ctx.fillStyle='rgba(237,239,246,'+(0.66+n.hot*0.34)+')';
+      ctx.fillText(n.label, lx, ly);
+    });
+    // centre: glowing dot + name pill
+    const glow=ctx.createRadialGradient(cx,cy,0,cx,cy,40);
+    glow.addColorStop(0,'rgba(147,133,255,0.28)'); glow.addColorStop(1,'rgba(147,133,255,0)');
+    ctx.fillStyle=glow; ctx.beginPath();ctx.arc(cx,cy,40,0,Math.PI*2);ctx.fill();
+    ctx.font='600 14px "Space Grotesk", sans-serif'; ctx.textAlign='center';
+    const tw=ctx.measureText(NAME).width, pw=tw+28, ph=30;
+    roundRect(cx-pw/2, cy-ph/2, pw, ph, 15);
+    ctx.fillStyle='rgba(52,60,82,0.95)'; ctx.fill();
+    ctx.lineWidth=1; ctx.strokeStyle='rgba(176,166,255,0.55)'; ctx.stroke();
+    const g=ctx.createLinearGradient(cx-tw/2,0,cx+tw/2,0);
+    g.addColorStop(0,'#B0A6FF'); g.addColorStop(1,'#FF9C82');
+    ctx.fillStyle=g; ctx.fillText(NAME, cx, cy+1);
+    raf=requestAnimationFrame(step);
+  }
+  function roundRect(x,y,w,h,r){ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);
+    ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath();}
+
+  canvas.addEventListener('mousemove',e=>{const r=canvas.getBoundingClientRect();mouse.x=e.clientX-r.left;mouse.y=e.clientY-r.top});
+  canvas.addEventListener('mouseleave',()=>{mouse.x=-999;mouse.y=-999});
+  window.addEventListener('resize',size);
+  size(); step(); if(reduce) cancelAnimationFrame(raf);
+})();
+
+/* ============================ NAV ============================ */
+(function(){
+  const burger=document.getElementById('burger'), links=document.getElementById('navlinks');
+  burger.addEventListener('click',()=>{const o=links.classList.toggle('open');burger.setAttribute('aria-expanded',o)});
+  links.addEventListener('click',e=>{if(e.target.tagName==='A')links.classList.remove('open')});
+  const navA=[...document.querySelectorAll('.nav-links a[href^="#"]')];
+  document.querySelectorAll('section[id]').forEach(s=>{
+    new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting)
+      navA.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+en.target.id))}),
+      {rootMargin:'-45% 0px -50% 0px'}).observe(s);
+  });
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
